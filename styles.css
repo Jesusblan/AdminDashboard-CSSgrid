@@ -7,10 +7,14 @@ body{
     grid-template-columns: repeat(11,110px);
     grid-template-rows: repeat(9,80px);
 }
-.menuContainer{
+.sectionsContainer{
     background-color: rgb(24, 132, 247);
     grid-column: 1/3;
     grid-row: 1/10;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(10, 1fr) ;
 }
 .accountContainer{
     background-color: rgb(255, 255, 255);
@@ -21,4 +25,16 @@ body{
     background-color: rgb(225, 225, 225);
     grid-column: 3/12;
     grid-row: 3/10;
+}
+.logoSection{
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+.menuSection{
+    grid-column: 1/4;
+    grid-row: 3/8;
+}
+.settingsSection{
+    grid-column: 1/4;
+    grid-row: 8/11;
 }
