@@ -8,6 +8,13 @@ body{
 .option{
     font-size: 20px;
 }
+.search{
+    position: absolute;
+    top: 1.2%;
+    border-radius: 20px;
+    width: 500px;
+    height: 30px;
+}
 
 .mainContainer{
     display: grid;
@@ -61,6 +68,9 @@ body{
     }
         .searchBar{
             grid-column: 1/7;
+
+            display: grid;
+            grid-template-columns: 1fr 10fr;
         }
         .account{
             grid-column: 8/11;
