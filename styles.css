@@ -163,6 +163,7 @@ body{
             .newsContent{
                 background-color: white;
                 border-radius: 9px;
+                margin-right: 6px;
                 
                 display: grid;
                 grid-template-rows: repeat(3, 1fr);
@@ -186,6 +187,11 @@ body{
             grid-row: 2/5;
             background-color: white;
             border-radius: 9px;
+            border: 0px;
+            border-left: 6px;
+            border-style: solid;
+            border-color: rgb(204, 224, 56);
+            margin-right: 6px;
             gap: 2px;
             align-items: center;
 
@@ -195,8 +201,6 @@ body{
         }
             .trendingUsers img{
                 height: 64px;
-                border-radius: 5px;
-                
             }
 
 
