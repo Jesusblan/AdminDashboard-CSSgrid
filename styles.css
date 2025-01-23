@@ -5,6 +5,9 @@ body{
 .icon{
     fill: white;
 }
+.option{
+    font-size: 20px;
+}
 
 .mainContainer{
     display: grid;
@@ -28,6 +31,7 @@ body{
 
             display: grid;
             grid-template-columns: 0.7fr 2fr;
+            grid-template-rows: 150px;
             align-items: center;
         }
         .menuSection{
@@ -41,6 +45,10 @@ body{
         .settingsSection{
             grid-column: 1/4;
             grid-row: 8/11;
+
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: repeat(4, 1fr);
         }
     .accountContainer{
         background-color: rgb(255, 255, 255);
